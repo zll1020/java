@@ -1,4 +1,4 @@
-package concurrent.designpatterns;
+package designpattern;
 
 /**
  * Description:

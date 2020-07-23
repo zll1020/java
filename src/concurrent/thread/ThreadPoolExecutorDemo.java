@@ -73,7 +73,7 @@ public class ThreadPoolExecutorDemo {
      *      * thread submit i = 12
      *      * thread submit i = 13
      *      * thread submit i = 14
-     *      * 线程池大小：5  //最大可创建线程数为10，但是没有创建？
+     *      * 线程池大小：5  //最大可创建线程数为10，但是没有创建？ 可能 无界队列 优先使用队列，不会创建新的线程
      *      * 队列长度：10  // 15 个任务全部提交了，只有5个真正在执行，其余在任务队列里
      *      * inner run after sleep n = 2
      *      * inner run after sleep n = 0
